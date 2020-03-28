@@ -53,7 +53,7 @@ body{
 
 /* about */
 .about{
-	padding-top: 90px;
+	padding-top: 100px;
 	margin-bottom: -50px;
 }
 .profile-img{
@@ -68,7 +68,7 @@ body{
 	background-color: #000;
 }
 .navbar-brand img{
-	height: 75px;
+	height: 60px;
 }
 .nav-bar .fa-bars{
 	font-size: 35px;
