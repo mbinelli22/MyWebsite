@@ -53,11 +53,11 @@ body{
 
 /* about */
 .about{
-	padding-top: 100px;
-	margin-bottom: -130px;
+	padding-top: 90px;
+	margin-bottom: -50px;
 }
 .profile-img{
-	height: 300px;
+	height: 350px;
 }
 .nav-bar{
 	top: 0;
@@ -166,7 +166,12 @@ body{
 }
 .services-box .fa{
 	margin: 0 10px;
-	font-size: 20px;
+	font-size: 50px;
+	color: #000;
+}
+.services-box .fa:hover{
+	border: 1px solid #fff !important;
+	transition: 1s;
 }
 .services-box span{
 	margin: 3px;
@@ -188,6 +193,9 @@ body{
 	transition: 1s;
 }
 .services-box:hover p{
+	color: #fff;
+}
+.services-box:hover .fa{
 	color: #fff;
 }
 /*contact*/
@@ -261,3 +269,7 @@ body{
 	width: 80px;
 	transition: 1s;
 }
+.footer img{
+	height: 40px;
+	width: 40px;
+	}
